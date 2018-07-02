@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{6A3863DE-4B8E-4256-9DAC-131323C5EE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "applicants.api", "services\applicants.api\applicants.api.csproj", "{43EB1FDA-78BE-4CFD-AB06-617889DC3135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jobs.api", "services\jobs.api\jobs.api.csproj", "{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identity.api", "services\identity.api\identity.api.csproj", "{BDAAD495-80DE-4649-ACA0-2F23498C7762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,5 +22,48 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Debug|x64.Build.0 = Debug|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Debug|x86.Build.0 = Debug|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Release|x64.ActiveCfg = Release|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Release|x64.Build.0 = Release|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Release|x86.ActiveCfg = Release|Any CPU
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135}.Release|x86.Build.0 = Release|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Debug|x64.Build.0 = Debug|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Debug|x86.Build.0 = Debug|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Release|x64.ActiveCfg = Release|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Release|x64.Build.0 = Release|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Release|x86.ActiveCfg = Release|Any CPU
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA}.Release|x86.Build.0 = Release|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Debug|x64.Build.0 = Debug|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Debug|x86.Build.0 = Debug|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Release|x64.ActiveCfg = Release|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Release|x64.Build.0 = Release|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Release|x86.ActiveCfg = Release|Any CPU
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43EB1FDA-78BE-4CFD-AB06-617889DC3135} = {6A3863DE-4B8E-4256-9DAC-131323C5EE24}
+		{E06F8DD5-2205-4415-ADE2-9DE9F8A2D5AA} = {6A3863DE-4B8E-4256-9DAC-131323C5EE24}
+		{BDAAD495-80DE-4649-ACA0-2F23498C7762} = {6A3863DE-4B8E-4256-9DAC-131323C5EE24}
 	EndGlobalSection
 EndGlobal
